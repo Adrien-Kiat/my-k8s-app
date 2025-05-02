@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: my-k8s-app
-        image: 2153168/my-k8s-app:latest
+        image: 2153168/my-k8s-app:dev
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
